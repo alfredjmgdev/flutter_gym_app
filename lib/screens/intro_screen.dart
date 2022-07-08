@@ -24,7 +24,7 @@ class IntroScreen extends StatelessWidget {
                       borderRadius: BorderRadius.all(Radius.circular(20)),
                       color: Colors.white70),
                   child: Text(
-                    "Testo es una priueba!!!",
+                    "Testo es una prueba",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 22,
