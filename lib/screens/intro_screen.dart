@@ -14,7 +14,7 @@ class IntroScreen extends StatelessWidget {
       body: Container(
           decoration: BoxDecoration(
               image: DecorationImage(
-            image: AssetImage("assets/forest.jpg"),
+            image: AssetImage("assets/gym.jpg"),
             fit: BoxFit.cover,
           )),
           child: Center(
@@ -24,7 +24,7 @@ class IntroScreen extends StatelessWidget {
                       borderRadius: BorderRadius.all(Radius.circular(20)),
                       color: Colors.white70),
                   child: Text(
-                    "Testo es una prueba",
+                    "Pagina generadora de Gifs",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 22,
@@ -32,7 +32,7 @@ class IntroScreen extends StatelessWidget {
                         Shadow(
                             offset: Offset(1.0, 1.0),
                             blurRadius: 2.0,
-                            color: Colors.green)
+                            color: Colors.blue)
                       ],
                     ),
                   )))),

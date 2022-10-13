@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/sessions_screen.dart';
 import 'package:flutter_application_1/screens/weather_screen.dart';
 import '../screens/bmi_screen.dart';
 import '../screens/intro_screen.dart';
+import '../screens/sessions_screen.dart';
 
 class MenuDrawer extends StatelessWidget {
   const MenuDrawer({Key? key}) : super(key: key);
@@ -22,7 +24,7 @@ class MenuDrawer extends StatelessWidget {
     ];
     List<Widget> menuItems = [];
     menuItems.add(DrawerHeader(
-        decoration: BoxDecoration(color: Colors.blueGrey),
+        decoration: BoxDecoration(color: Colors.blue),
         child: Text("Globo fitness",
             style: TextStyle(color: Colors.white, fontSize: 28))));
     menuTitles.forEach((String element) {
@@ -39,6 +41,9 @@ class MenuDrawer extends StatelessWidget {
                 break;
               case "Weather":
                 screen = WeatherScreen();
+                break;
+              case "Training":
+                screen = SessionScreen();
                 break;
             }
 
