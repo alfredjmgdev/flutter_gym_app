@@ -22,5 +22,3 @@ class GlobeApp extends StatelessWidget {
         initialRoute: "/");
   }
 }
-
-// test
