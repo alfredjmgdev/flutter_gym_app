@@ -22,4 +22,3 @@ class GlobeApp extends StatelessWidget {
         initialRoute: "/");
   }
 }
-// rtesf
